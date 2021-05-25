@@ -1,0 +1,79 @@
+[05-May-2021 09:31:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\vendor\knplabs\gaufrette\src\Gaufrette\Util\Path.php on line 30
+[05-May-2021 09:31:49 UTC] PHP Stack trace:
+[05-May-2021 09:31:49 UTC] PHP   1. {main}() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-admin\admin.php:0
+[05-May-2021 09:31:49 UTC] PHP   2. do_action() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-admin\admin.php:259
+[05-May-2021 09:31:49 UTC] PHP   3. WP_Hook->do_action() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\plugin.php:484
+[05-May-2021 09:31:49 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\class-wp-hook.php:316
+[05-May-2021 09:31:49 UTC] PHP   5. Brizy_Admin_OptimizeImages->render() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\class-wp-hook.php:292
+[05-May-2021 09:31:49 UTC] PHP   6. Brizy_Admin_OptimizeImages->get_general_tab() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\optimize-images.php:58
+[05-May-2021 09:31:49 UTC] PHP   7. Brizy_Admin_Guafrette_LocalAdapter->__construct() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\optimize-images.php:95
+[05-May-2021 09:31:49 UTC] PHP   8. spl_autoload_call() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\local-adapter.php:20
+[05-May-2021 09:31:49 UTC] PHP   9. brizyAutoload() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\local-adapter.php:20
+[05-May-2021 09:31:49 UTC] PHP  10. include_once() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\autoload.php:37
+[05-May-2021 09:31:49 UTC] PHP  11. spl_autoload_call() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\path.php:9
+[05-May-2021 09:31:49 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\path.php:9
+[05-May-2021 09:31:49 UTC] PHP  13. Composer\Autoload\includeFile() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\vendor\composer\ClassLoader.php:344
+[05-May-2021 09:31:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\vendor\knplabs\gaufrette\src\Gaufrette\Util\Path.php on line 34
+[05-May-2021 09:31:49 UTC] PHP Stack trace:
+[05-May-2021 09:31:49 UTC] PHP   1. {main}() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-admin\admin.php:0
+[05-May-2021 09:31:49 UTC] PHP   2. do_action() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-admin\admin.php:259
+[05-May-2021 09:31:49 UTC] PHP   3. WP_Hook->do_action() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\plugin.php:484
+[05-May-2021 09:31:49 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\class-wp-hook.php:316
+[05-May-2021 09:31:49 UTC] PHP   5. Brizy_Admin_OptimizeImages->render() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\class-wp-hook.php:292
+[05-May-2021 09:31:49 UTC] PHP   6. Brizy_Admin_OptimizeImages->get_general_tab() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\optimize-images.php:58
+[05-May-2021 09:31:49 UTC] PHP   7. Brizy_Admin_Guafrette_LocalAdapter->__construct() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\optimize-images.php:95
+[05-May-2021 09:31:49 UTC] PHP   8. spl_autoload_call() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\local-adapter.php:20
+[05-May-2021 09:31:49 UTC] PHP   9. brizyAutoload() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\local-adapter.php:20
+[05-May-2021 09:31:49 UTC] PHP  10. include_once() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\autoload.php:37
+[05-May-2021 09:31:49 UTC] PHP  11. spl_autoload_call() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\path.php:9
+[05-May-2021 09:31:49 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\path.php:9
+[05-May-2021 09:31:49 UTC] PHP  13. Composer\Autoload\includeFile() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\vendor\composer\ClassLoader.php:344
+[05-May-2021 09:31:49 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\vendor\knplabs\gaufrette\src\Gaufrette\Util\Path.php on line 36
+[05-May-2021 09:31:49 UTC] PHP Stack trace:
+[05-May-2021 09:31:49 UTC] PHP   1. {main}() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-admin\admin.php:0
+[05-May-2021 09:31:49 UTC] PHP   2. do_action() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-admin\admin.php:259
+[05-May-2021 09:31:49 UTC] PHP   3. WP_Hook->do_action() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\plugin.php:484
+[05-May-2021 09:31:49 UTC] PHP   4. WP_Hook->apply_filters() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\class-wp-hook.php:316
+[05-May-2021 09:31:49 UTC] PHP   5. Brizy_Admin_OptimizeImages->render() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\class-wp-hook.php:292
+[05-May-2021 09:31:49 UTC] PHP   6. Brizy_Admin_OptimizeImages->get_general_tab() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\optimize-images.php:58
+[05-May-2021 09:31:49 UTC] PHP   7. Brizy_Admin_Guafrette_LocalAdapter->__construct() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\optimize-images.php:95
+[05-May-2021 09:31:49 UTC] PHP   8. spl_autoload_call() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\local-adapter.php:20
+[05-May-2021 09:31:49 UTC] PHP   9. brizyAutoload() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\local-adapter.php:20
+[05-May-2021 09:31:49 UTC] PHP  10. include_once() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\autoload.php:37
+[05-May-2021 09:31:49 UTC] PHP  11. spl_autoload_call() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\path.php:9
+[05-May-2021 09:31:49 UTC] PHP  12. Composer\Autoload\ClassLoader->loadClass() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\admin\guafrette\path.php:9
+[05-May-2021 09:31:49 UTC] PHP  13. Composer\Autoload\includeFile() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\brizy\vendor\composer\ClassLoader.php:344
+[09-May-2021 15:21:28 UTC] PHP Warning:  include(C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public/wp-content/themes/maglootheme/images/blob-icon.png): failed to open stream: No such file or directory in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\themes\maglootheme\homepage.php on line 39
+[09-May-2021 15:21:28 UTC] PHP Stack trace:
+[09-May-2021 15:21:28 UTC] PHP   1. {main}() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\index.php:0
+[09-May-2021 15:21:28 UTC] PHP   2. require() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\index.php:17
+[09-May-2021 15:21:28 UTC] PHP   3. require_once() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-blog-header.php:19
+[09-May-2021 15:21:28 UTC] PHP   4. include() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\template-loader.php:106
+[09-May-2021 15:21:28 UTC] PHP Warning:  include(): Failed opening 'C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public/wp-content/themes/maglootheme/images/blob-icon.png' for inclusion (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\themes\maglootheme\homepage.php on line 39
+[09-May-2021 15:21:28 UTC] PHP Stack trace:
+[09-May-2021 15:21:28 UTC] PHP   1. {main}() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\index.php:0
+[09-May-2021 15:21:28 UTC] PHP   2. require() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\index.php:17
+[09-May-2021 15:21:28 UTC] PHP   3. require_once() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-blog-header.php:19
+[09-May-2021 15:21:28 UTC] PHP   4. include() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\template-loader.php:106
+[11-May-2021 11:44:01 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\themes\maglootheme\template-parts\landing-page\commission.php on line 48
+[11-May-2021 11:44:26 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\themes\maglootheme\template-parts\landing-page\commission.php on line 45
+[11-May-2021 11:45:12 UTC] PHP Warning:  Illegal offset type in isset or empty in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\class-acf-data.php on line 125
+[11-May-2021 11:45:12 UTC] PHP Stack trace:
+[11-May-2021 11:45:12 UTC] PHP   1. {main}() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\index.php:0
+[11-May-2021 11:45:12 UTC] PHP   2. require() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\index.php:17
+[11-May-2021 11:45:12 UTC] PHP   3. require_once() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-blog-header.php:19
+[11-May-2021 11:45:12 UTC] PHP   4. include() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\template-loader.php:106
+[11-May-2021 11:45:12 UTC] PHP   5. get_template_part() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\themes\maglootheme\homepage.php:21
+[11-May-2021 11:45:12 UTC] PHP   6. locate_template() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\general-template.php:204
+[11-May-2021 11:45:12 UTC] PHP   7. load_template() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\template.php:676
+[11-May-2021 11:45:12 UTC] PHP   8. require() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\template.php:732
+[11-May-2021 11:45:12 UTC] PHP   9. have_rows() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\themes\maglootheme\template-parts\landing-page\commission.php:24
+[11-May-2021 11:45:12 UTC] PHP  10. get_field_object() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:453
+[11-May-2021 11:45:12 UTC] PHP  11. acf_maybe_get_field() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:121
+[11-May-2021 11:45:12 UTC] PHP  12. acf_is_field_key() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\api\api-template.php:171
+[11-May-2021 11:45:12 UTC] PHP  13. apply_filters() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\acf-field-functions.php:195
+[11-May-2021 11:45:12 UTC] PHP  14. WP_Hook->apply_filters() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\plugin.php:212
+[11-May-2021 11:45:12 UTC] PHP  15. _acf_apply_is_local_field_key() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-includes\class-wp-hook.php:292
+[11-May-2021 11:45:12 UTC] PHP  16. acf_is_local_field_key() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php:528
+[11-May-2021 11:45:12 UTC] PHP  17. ACF_Data->is() C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\plugins\advanced-custom-fields-pro\includes\local-fields.php:448
+[11-May-2021 11:56:44 UTC] PHP Parse error:  syntax error, unexpected end of file in C:\Users\user\Local Sites\betmoto-affiliate-landing-page\app\public\wp-content\themes\maglootheme\template-parts\landing-page\faq.php on line 39
